@@ -1,5 +1,5 @@
 const apiKey = "5ed4f4ba02361f20cab1a37bd0c893d5";
-const url = (location) => `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&lang=vi`;
+const url = (location) => `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&lang=fr`;
 const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
